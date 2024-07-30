@@ -4,3 +4,6 @@ on:
     types: [opened]
 permissions:
   pull-requests: write
+jobs:
+  name: Post welcome comment
+  runs_on: ubuntu-latest
